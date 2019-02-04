@@ -48,8 +48,8 @@ function food6(){
 }
 
 function price(){
-  if(foodpage == 1){
-    document.getElementById('price').innerHTML = "10.99";
+  if(1 == 1){
+    document.getElementById('price').innerHTML = mydata.food[0].price;
   }
 }
 
