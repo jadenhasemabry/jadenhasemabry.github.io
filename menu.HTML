@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <script src="restaurant.js"> </script>
+    <style>
+      Body{
+        background-color:url
+        background-size:cover;
+        margin:0;
+        padding:0;
+      }
+      
+      h1{
+        text-size:200px
+      }
+      
+      
+      
+      
+      #nav{
+        width:25%;
+        height:100%;
+        background-color:#1B1725;
+        float:left;
+        color:white;
+      }
+      #pic{
+        width:75%;
+        height:100%;
+        background-color:#534B62;
+        float:left;
+        background-size:cover;
+
+      }
+      #desc{
+       width:75%;
+       height:25%;
+       color:white;
+       float:left;
+       z-index: 1;
+       background: rgba(0, 0, 0, 0.65);
+       position:fixed;
+       margin-left:25%;
+       margin-top:34%;
+      }
+      .navbut{
+       width:100%;
+       height:10%;
+       background-color:#D85813;
+       color:#1F2041;
+       font-size:20px;
+       font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+       font-style: oblique;
+       border:none;
+      }
+      
+      .num{
+        width:50px;
+        height:50px;
+        margin:5px;
+        background-color:white;
+        font-size:40px;
+        float:right;
+      }
+    
+    </style>
+ 
+  </head>
+   <body>
+    <div id="nav">
+      <button class="navbut" onclick="food1()" id="but1">Marinated barbeque ribs</button>
+      <button class="navbut" onclick="food2()" id="but2">Rigatoni pasta</button>
+      <button class="navbut" onclick="food3()" id="but3">Salmon fillet</button>
+      <button class="navbut" onclick="food4()" id="but4">Chilled ice cream</button>
+      <button class="navbut" onclick="food5()" id="but5">American-style Burger and fries</button>
+      <button class="navbut" onclick="food6()" id="but6">Mashed potatoes</button>
+      <h1>Pay here</h1>
+    </div>
+    
+    <div id="pic"></div>
+    <div id="desc">
+      <h1 id="price">hi</h1>
+      <button class="num" function="add">-</button>
+      <button class="num" function="subtract">+</button>
+    </div>
+    <script src="restaurant.js"></script>
+
+    
+    
+    
+    
+  </body>
+  
+  
+</html>
