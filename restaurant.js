@@ -5,7 +5,7 @@
             window.alert(mydata.food[0].name);
         }
       };
-      xmlhttp.open("GET", "bento.json", true);
+      xmlhttp.open("GET", "restaurant.json", true);
       xmlhttp.send();
 
 function add(){
