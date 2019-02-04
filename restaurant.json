@@ -1,0 +1,32 @@
+{
+  "food":[
+    {
+      "name":"Marinated barbeque ribs",
+      "price":22.99
+    },
+    {
+      "name":"Rigatoni pasta",
+      "price":14.99
+    },
+    {
+      "name":"Salmon fillet",
+      "price":16.99
+    },
+    {
+      "name":"Chilled ice cream",
+      "price":5.99
+    },
+    {
+      "name":"American-style Burger and fries",
+      "price":12.99
+    },
+    {
+      "name":"mashed potatoes",
+      "price":3.99
+    }
+]}
+      
+      
+      
+      
+     
