@@ -11,6 +11,9 @@
 function food1(){
   document.getElementById('pic').style.backgroundImage ="url(http://nebula.wsimg.com/73984f448dd8674bf636fcdb4fe360e9?AccessKeyId=DEC0FC211629198B3546&disposition=0&alloworigin=1)";
    foodpage = 1;
+ var num1 = 0;
+   num1+= 1;
+   document.getElementById('pay1').innerHTML = "Marinated barbeque ribs" + " " + "x" + num1;
 }
 
 function food2(){
