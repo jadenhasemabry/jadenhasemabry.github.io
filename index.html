@@ -25,7 +25,7 @@
       var points = 0;
       var bulletx = 0;
       var bullety = 0;
-      var speed = 15;
+      var speed = 25;
       function setup() {
         createCanvas(w,h);
       }
@@ -103,7 +103,7 @@
         };
         this.scoreboard = function(){
         document.getElementById('score').innerHTML = "Cops's points:" + points + "<br>" + "Press arrow keys to shoot! " + "<br>" + "Robber's speed:" + speed;
-        if(points > 9){
+        if(points > 4){
           speed = 0;
            document.getElementById('score').innerHTML = "Cops's points:" + points + "<br>" + "Press arrow keys to shoot! YOU WIN!!!!!!"
         }
