@@ -3,16 +3,33 @@
        <script src="p5.min.js"></script>
   </head>
   <body>
+    <h1 id="ax"></h1>
+    <h1 id="ay"></h1>
     <script>
-      var d;
+      var ax;
+      var ay;
+      var xhigh = 0;
+      var yhigh = 0;
       function setup(){
         createCanvas(window.innerWidth, window.innerHeight);
       }
       
       function draw(){
-        d = accelerationX;
-        textSize(100);
-        text(d, 10, 100, 10);
+        ax = accelerationX;
+        ay = accelerationY;
+         if(ax > xhigh){
+           ax = xhigh;
+           
+         }
+         if(ay > yhigh){
+           ay = yhigh;
+         }
+        
+        
+        
+        
+        document.getElementById('ax').innerHTML = xhigh;
+        document.getElementById('ay').innerHTML = yhigh;
       }
       
       
